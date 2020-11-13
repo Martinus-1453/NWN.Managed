@@ -1,19 +1,9 @@
 var searchData=
 [
-  ['takegold_1150',['TakeGold',['../classNWN_1_1API_1_1NwCreature.html#a2179888d5df0bcb40cba6594b7fbb1ca',1,'NWN::API::NwCreature']]],
-  ['takegoldfrom_1151',['TakeGoldFrom',['../classNWN_1_1API_1_1NwCreature.html#a6f7860a2374915659d99064071272084',1,'NWN::API::NwCreature']]],
-  ['temporaryhitpoints_1152',['TemporaryHitpoints',['../classNWN_1_1API_1_1Effect.html#a5ad73287bb127d9c409bbc6a9fda565e',1,'NWN::API::Effect']]],
-  ['timestop_1153',['TimeStop',['../classNWN_1_1API_1_1Effect.html#a9f833d8a8ec62546fcaa640834f12395',1,'NWN::API::Effect']]],
-  ['tocolortoken_1154',['ToColorToken',['../structNWN_1_1API_1_1Color.html#ae967238318d89b300df1f32fedc1c39d',1,'NWN::API::Color']]],
-  ['toint_1155',['ToInt',['../structNWN_1_1API_1_1Color.html#abae7bf0bd95cc9965c77488dadc3fa42',1,'NWN::API::Color']]],
-  ['tonwobject_1156',['ToNwObject',['../classNWN_1_1API_1_1GuidExtensions.html#af7b54b275e81a7bec1f978edc5345c81',1,'NWN::API::GuidExtensions']]],
-  ['tonwobject_3c_20t_20_3e_1157',['ToNwObject&lt; T &gt;',['../classNWN_1_1API_1_1GuidExtensions.html#aca23305b0e15622e9208eff39cfff72c',1,'NWN::API::GuidExtensions']]],
-  ['tonwobjectsafe_3c_20t_20_3e_1158',['ToNwObjectSafe&lt; T &gt;',['../classNWN_1_1API_1_1GuidExtensions.html#a3e14514d1de841926d9e12a81a164f30',1,'NWN::API::GuidExtensions']]],
-  ['touchattackmelee_1159',['TouchAttackMelee',['../classNWN_1_1API_1_1NwCreature.html#ae988e84769fec6aca1ab4fb1d0fb9c45',1,'NWN::API::NwCreature']]],
-  ['touchattackranged_1160',['TouchAttackRanged',['../classNWN_1_1API_1_1NwCreature.html#ac8af4779b137c069a21d0ac704375c2c',1,'NWN::API::NwCreature']]],
-  ['touuidstring_1161',['ToUUIDString',['../classNWN_1_1API_1_1GuidExtensions.html#a1851a3b8603e352b0d4604c7c9d949a2',1,'NWN::API::GuidExtensions']]],
-  ['trueseeing_1162',['TrueSeeing',['../classNWN_1_1API_1_1Effect.html#ac9f2d4383d3a558f9476e8920838a9b6',1,'NWN::API::Effect']]],
-  ['turned_1163',['Turned',['../classNWN_1_1API_1_1Effect.html#a8f0f4e2d05d8b55a41ed903df2fd81bd',1,'NWN::API::Effect']]],
-  ['turnresistancedecrease_1164',['TurnResistanceDecrease',['../classNWN_1_1API_1_1Effect.html#ae22aa1707b6a5d435ae37e265d28db0d',1,'NWN::API::Effect']]],
-  ['turnresistanceincrease_1165',['TurnResistanceIncrease',['../classNWN_1_1API_1_1Effect.html#a7bc0dbf4170917f65d4660bb62e4b11d',1,'NWN::API::Effect']]]
+  ['unlockachievement_1746',['UnlockAchievement',['../classNWN_1_1API_1_1NwPlayer.html#ac1f69ec12641d650de9e00f0426549db',1,'NWN::API::NwPlayer']]],
+  ['unregisterserverconsolecommand_1747',['UnregisterServerConsoleCommand',['../classNWNX_1_1API_1_1Util.html#a0dd470aeb74ef110a809b4d604ae3a7d',1,'NWNX::API::Util']]],
+  ['unsubscribe_3c_20tevent_20_3e_1748',['Unsubscribe&lt; TEvent &gt;',['../classNWNX_1_1Services_1_1NWNXEventService.html#acb02c4f504c9ffc7c5566d7f939637ed',1,'NWNX::Services::NWNXEventService']]],
+  ['unsubscribe_3c_20tobject_2c_20tevent_20_3e_1749',['Unsubscribe&lt; TObject, TEvent &gt;',['../classNWN_1_1Services_1_1NativeEventService.html#a4f9e9411bf97232867a22e68a5960467',1,'NWN::Services::NativeEventService']]],
+  ['update_1750',['Update',['../interfaceNWN_1_1Services_1_1IUpdateable.html#aedac417ae32de9acaf39fad1c10900f9',1,'NWN::Services::IUpdateable']]],
+  ['usesperdayremaining_1751',['UsesPerDayRemaining',['../classNWN_1_1API_1_1NwItem.html#a5117c1d42c01becd99d65373f7627521',1,'NWN::API::NwItem']]]
 ];

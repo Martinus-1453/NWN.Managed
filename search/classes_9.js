@@ -1,27 +1,8 @@
 var searchData=
 [
-  ['nmanager_833',['NManager',['../classNWN_1_1NManager.html',1,'NWN']]],
-  ['nwarea_834',['NwArea',['../classNWN_1_1API_1_1NwArea.html',1,'NWN::API']]],
-  ['nwareaofeffect_835',['NwAreaOfEffect',['../classNWN_1_1API_1_1NwAreaOfEffect.html',1,'NWN::API']]],
-  ['nwcreature_836',['NwCreature',['../classNWN_1_1API_1_1NwCreature.html',1,'NWN::API']]],
-  ['nwdatetime_837',['NwDateTime',['../structNWN_1_1Services_1_1NwDateTime.html',1,'NWN::Services']]],
-  ['nwdoor_838',['NwDoor',['../classNWN_1_1API_1_1NwDoor.html',1,'NWN::API']]],
-  ['nwencounter_839',['NwEncounter',['../classNWN_1_1API_1_1NwEncounter.html',1,'NWN::API']]],
-  ['nwgameobject_840',['NwGameObject',['../classNWN_1_1API_1_1NwGameObject.html',1,'NWN::API']]],
-  ['nwitem_841',['NwItem',['../classNWN_1_1API_1_1NwItem.html',1,'NWN::API']]],
-  ['nwmodule_842',['NwModule',['../classNWN_1_1API_1_1NwModule.html',1,'NWN::API']]],
-  ['nwnxattackeventattribute_843',['NWNXAttackEventAttribute',['../classNWNX_1_1API_1_1Events_1_1NWNXAttackEventAttribute.html',1,'NWNX::API::Events']]],
-  ['nwnxdamageeventattribute_844',['NWNXDamageEventAttribute',['../classNWNX_1_1API_1_1Events_1_1NWNXDamageEventAttribute.html',1,'NWNX::API::Events']]],
-  ['nwnxeventattribute_845',['NWNXEventAttribute',['../classNWNX_1_1API_1_1Events_1_1NWNXEventAttribute.html',1,'NWNX::API::Events']]],
-  ['nwobject_846',['NwObject',['../classNWN_1_1API_1_1NwObject.html',1,'NWN::API']]],
-  ['nwplaceable_847',['NwPlaceable',['../classNWN_1_1API_1_1NwPlaceable.html',1,'NWN::API']]],
-  ['nwplayer_848',['NwPlayer',['../classNWN_1_1API_1_1NwPlayer.html',1,'NWN::API']]],
-  ['nwsound_849',['NwSound',['../classNWN_1_1API_1_1NwSound.html',1,'NWN::API']]],
-  ['nwstationary_850',['NwStationary',['../classNWN_1_1API_1_1NwStationary.html',1,'NWN::API']]],
-  ['nwstore_851',['NwStore',['../classNWN_1_1API_1_1NwStore.html',1,'NWN::API']]],
-  ['nwtask_852',['NwTask',['../classNWN_1_1API_1_1NwTask.html',1,'NWN::API']]],
-  ['nwtimespan_853',['NwTimeSpan',['../classNWN_1_1API_1_1NwTimeSpan.html',1,'NWN::API']]],
-  ['nwtrappable_854',['NwTrappable',['../classNWN_1_1API_1_1NwTrappable.html',1,'NWN::API']]],
-  ['nwtrigger_855',['NwTrigger',['../classNWN_1_1API_1_1NwTrigger.html',1,'NWN::API']]],
-  ['nwwaypoint_856',['NwWaypoint',['../classNWN_1_1API_1_1NwWaypoint.html',1,'NWN::API']]]
+  ['levelevents_1096',['LevelEvents',['../classNWNX_1_1API_1_1Events_1_1LevelEvents.html',1,'NWNX::API::Events']]],
+  ['localvariable_1097',['LocalVariable',['../classNWN_1_1API_1_1LocalVariable.html',1,'NWN.API.LocalVariable'],['../classNWN_1_1API_1_1LocalVariable.html',1,'NWN.API.LocalVariable&lt; T &gt;']]],
+  ['localvariableconverterattribute_1098',['LocalVariableConverterAttribute',['../classNWN_1_1API_1_1LocalVariableConverterAttribute.html',1,'NWN::API']]],
+  ['location_1099',['Location',['../classNWN_1_1API_1_1Location.html',1,'NWN::API']]],
+  ['looptimeservice_1100',['LoopTimeService',['../classNWN_1_1Services_1_1LoopTimeService.html',1,'NWN::Services']]]
 ];

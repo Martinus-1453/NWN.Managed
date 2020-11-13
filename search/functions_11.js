@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['ultravision_1166',['Ultravision',['../classNWN_1_1API_1_1Effect.html#a67438ed3875cc0f9c3a61165cbcd4fb7',1,'NWN::API::Effect']]],
-  ['unlockachievement_1167',['UnlockAchievement',['../classNWN_1_1API_1_1NwPlayer.html#ac1f69ec12641d650de9e00f0426549db',1,'NWN::API::NwPlayer']]],
-  ['unregisterserverconsolecommand_1168',['UnregisterServerConsoleCommand',['../classNWNX_1_1API_1_1Util.html#a0dd470aeb74ef110a809b4d604ae3a7d',1,'NWNX::API::Util']]],
-  ['unsubscribe_3c_20tobject_2c_20tevent_20_3e_1169',['Unsubscribe&lt; TObject, TEvent &gt;',['../classNWN_1_1Services_1_1EventService.html#aae5849a4ad1b977448d48b9aa52fc061',1,'NWN::Services::EventService']]],
-  ['unsubscribeall_3c_20tevent_20_3e_1170',['UnsubscribeAll&lt; TEvent &gt;',['../classNWN_1_1Services_1_1EventService.html#a0e5f849d387a7707f2c747372a4a978d',1,'NWN::Services::EventService']]],
-  ['update_1171',['Update',['../interfaceNWN_1_1Services_1_1IUpdateable.html#aedac417ae32de9acaf39fad1c10900f9',1,'NWN::Services::IUpdateable']]]
+  ['vectortoangle_1752',['VectorToAngle',['../classNWN_1_1API_1_1NwMath.html#aae4b895f62e4dfcc86ca3854345a7f8c',1,'NWN.API.NwMath.VectorToAngle(Vector2 direction)'],['../classNWN_1_1API_1_1NwMath.html#a74c257027621c5af3db50b7d5d516c2c',1,'NWN.API.NwMath.VectorToAngle(Vector3 direction)']]],
+  ['vibrate_1753',['Vibrate',['../classNWN_1_1API_1_1NwPlayer.html#a22177cc9bca974e72269e0f870034c94',1,'NWN::API::NwPlayer']]],
+  ['visiblehighestacmember_1754',['VisibleHighestACMember',['../classNWN_1_1API_1_1NwFaction.html#a644da990195bbc719a39c518b433f0ba',1,'NWN::API::NwFaction']]],
+  ['visibleleastdamagedmember_1755',['VisibleLeastDamagedMember',['../classNWN_1_1API_1_1NwFaction.html#aa27408e70b32cdebab6bdb69317375ef',1,'NWN::API::NwFaction']]],
+  ['visiblelowestacmember_1756',['VisibleLowestACMember',['../classNWN_1_1API_1_1NwFaction.html#a9585c822889950aacf3bab666fe0ce78',1,'NWN::API::NwFaction']]],
+  ['visiblemostdamagedmember_1757',['VisibleMostDamagedMember',['../classNWN_1_1API_1_1NwFaction.html#a964ef50ee3a6772fd5aed6b59c5ceeb4',1,'NWN::API::NwFaction']]],
+  ['visiblestrongestmember_1758',['VisibleStrongestMember',['../classNWN_1_1API_1_1NwFaction.html#a7c6be454442a0a3420839adc8d369762',1,'NWN::API::NwFaction']]],
+  ['visibleweakestmember_1759',['VisibleWeakestMember',['../classNWN_1_1API_1_1NwFaction.html#ab877ba8cb9d1a322aa2a8934588057e2',1,'NWN::API::NwFaction']]]
 ];

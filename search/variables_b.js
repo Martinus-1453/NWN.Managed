@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['originaldescription_1221',['OriginalDescription',['../classNWN_1_1API_1_1NwObject.html#a805a9020f0c0b1f22bcd7d19c54a1c8c',1,'NWN::API::NwObject']]],
-  ['originalunidentifieddescription_1222',['OriginalUnidentifiedDescription',['../classNWN_1_1API_1_1NwItem.html#a876a52133878ba0c932da1bc7395a979',1,'NWN::API::NwItem']]]
+  ['player_1787',['Player',['../classNWN_1_1Services_1_1CursorTargetData.html#a0ab889aa9b22149e6ab46c0d729db792',1,'NWN::Services::CursorTargetData']]],
+  ['propertytype_1788',['PropertyType',['../classNWN_1_1API_1_1ItemProperty.html#a346a9b4c323d348269903af83dd716b8',1,'NWN::API::ItemProperty']]]
 ];

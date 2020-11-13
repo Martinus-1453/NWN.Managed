@@ -33,7 +33,7 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Properties", "functions_prop.html", null ]
+        [ "Properties", "functions_prop.html", "functions_prop" ]
       ] ]
     ] ]
   ] ]
@@ -42,10 +42,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classNWN_1_1API_1_1Effect.html#a367dd69a12cdacd040ec135e5147c60a",
-"classNWN_1_1API_1_1Events_1_1ModuleEvents_1_1OnPlayerDying.html#ad99c109cc8a01dcf260349b0a6189745",
-"classNWN_1_1API_1_1NwCreature.html#aee5104c58e0fc7d7d6dfd6e7008035e2",
-"classNWN_1_1NManager.html#a285dc2956dea234648dedaae873f69f1"
+"classNWNX_1_1API_1_1Events_1_1ItemEvents_1_1OnItemPayToIdentifyBefore.html#ab580bcb801ce04712b9b49cf08064cdc",
+"classNWN_1_1API_1_1CallInfo.html#a3bcdd27c6cec1fd61cb28f584c664a23",
+"classNWN_1_1API_1_1Events_1_1DoorEvents_1_1OnFailToOpen.html#a4258aea9dd8a18ebf5d86c02f7ea7778",
+"classNWN_1_1API_1_1ItemProperty.html#a2e986e2369d03f23bcffc3a92d46a28b",
+"classNWN_1_1API_1_1NwCreature.html#ac5d394fe80a48b2979b478ff8f375efe",
+"classNWN_1_1API_1_1NwPlayer.html#ac568f63e914766242097f50f667ff73d",
+"interfaceNWN_1_1Services_1_1IInitializable.html#a52547d571b1215eb27631eb8e7dd0f79"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,11 +1,16 @@
 var searchData=
 [
-  ['damage_683',['Damage',['../classNWNX_1_1API_1_1Damage.html',1,'NWNX::API']]],
-  ['damagedata_684',['DamageData',['../structNWNX_1_1API_1_1Events_1_1DamageData.html',1,'NWNX::API::Events']]],
-  ['damageevent_685',['DamageEvent',['../classNWNX_1_1API_1_1Events_1_1DamageEvent.html',1,'NWNX::API::Events']]],
-  ['debugoptions_686',['DebugOptions',['../classNWNX_1_1API_1_1Administration_1_1DebugOptions.html',1,'NWNX::API::Administration']]],
-  ['dialog_687',['Dialog',['../classNWNX_1_1API_1_1Dialog.html',1,'NWNX::API']]],
-  ['dialogueservice_688',['DialogueService',['../classNWN_1_1Services_1_1DialogueService.html',1,'NWN::Services']]],
-  ['direction_689',['Direction',['../classNWN_1_1API_1_1Constants_1_1Direction.html',1,'NWN::API::Constants']]],
-  ['doorevents_690',['DoorEvents',['../classNWN_1_1API_1_1Events_1_1DoorEvents.html',1,'NWN::API::Events']]]
+  ['calendarevents_1030',['CalendarEvents',['../classNWNX_1_1API_1_1Events_1_1CalendarEvents.html',1,'NWNX::API::Events']]],
+  ['callinfo_1031',['CallInfo',['../classNWN_1_1API_1_1CallInfo.html',1,'NWN::API']]],
+  ['campaignvariable_1032',['CampaignVariable',['../classNWN_1_1API_1_1CampaignVariable.html',1,'NWN::API']]],
+  ['campaignvariableconverterattribute_1033',['CampaignVariableConverterAttribute',['../classNWN_1_1API_1_1CampaignVariableConverterAttribute.html',1,'NWN::API']]],
+  ['chat_1034',['Chat',['../classNWNX_1_1API_1_1Chat.html',1,'NWNX::API']]],
+  ['classinfo_1035',['ClassInfo',['../classNWN_1_1API_1_1ClassInfo.html',1,'NWN::API']]],
+  ['clientevents_1036',['ClientEvents',['../classNWNX_1_1API_1_1Events_1_1ClientEvents.html',1,'NWNX::API::Events']]],
+  ['color_1037',['Color',['../structNWN_1_1API_1_1Color.html',1,'NWN::API']]],
+  ['creature_1038',['Creature',['../classNWNX_1_1API_1_1Creature.html',1,'NWNX::API']]],
+  ['creatureevents_1039',['CreatureEvents',['../classNWN_1_1API_1_1Events_1_1CreatureEvents.html',1,'NWN::API::Events']]],
+  ['creaturetypefilter_1040',['CreatureTypeFilter',['../structNWN_1_1API_1_1CreatureTypeFilter.html',1,'NWN::API']]],
+  ['cursortargetdata_1041',['CursorTargetData',['../classNWN_1_1Services_1_1CursorTargetData.html',1,'NWN::Services']]],
+  ['cursortargetservice_1042',['CursorTargetService',['../classNWN_1_1Services_1_1CursorTargetService.html',1,'NWN::Services']]]
 ];

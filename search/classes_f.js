@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['talent_928',['Talent',['../classNWN_1_1API_1_1Talent.html',1,'NWN::API']]],
-  ['talentextensions_929',['TalentExtensions',['../classNWN_1_1API_1_1TalentExtensions.html',1,'NWN::API']]],
-  ['triggerevents_930',['TriggerEvents',['../classNWN_1_1API_1_1Events_1_1TriggerEvents.html',1,'NWN::API::Events']]],
-  ['twodimarrayfactory_931',['TwoDimArrayFactory',['../classNWN_1_1Services_1_1TwoDimArrayFactory.html',1,'NWN::Services']]]
+  ['radiussize_1432',['RadiusSize',['../classNWN_1_1API_1_1Constants_1_1RadiusSize.html',1,'NWN::API::Constants']]],
+  ['randomextensions_1433',['RandomExtensions',['../classNWN_1_1API_1_1RandomExtensions.html',1,'NWN::API']]],
+  ['rename_1434',['Rename',['../classNWNX_1_1API_1_1Rename.html',1,'NWNX::API']]],
+  ['resourceevents_1435',['ResourceEvents',['../classNWNX_1_1API_1_1Events_1_1ResourceEvents.html',1,'NWNX::API::Events']]],
+  ['reveal_1436',['Reveal',['../classNWNX_1_1API_1_1Reveal.html',1,'NWNX::API']]]
 ];
