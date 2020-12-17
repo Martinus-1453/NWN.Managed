@@ -42,13 +42,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classNWNX_1_1API_1_1Events_1_1ItemEvents_1_1OnItemPayToIdentifyBefore.html#ab580bcb801ce04712b9b49cf08064cdc",
-"classNWN_1_1API_1_1CallInfo.html#a3bcdd27c6cec1fd61cb28f584c664a23",
-"classNWN_1_1API_1_1Events_1_1DoorEvents_1_1OnFailToOpen.html#a4258aea9dd8a18ebf5d86c02f7ea7778",
-"classNWN_1_1API_1_1ItemProperty.html#a2e986e2369d03f23bcffc3a92d46a28b",
-"classNWN_1_1API_1_1NwCreature.html#ac5d394fe80a48b2979b478ff8f375efe",
-"classNWN_1_1API_1_1NwPlayer.html#ac568f63e914766242097f50f667ff73d",
-"interfaceNWN_1_1Services_1_1IInitializable.html#a52547d571b1215eb27631eb8e7dd0f79"
+"classNWNX_1_1API_1_1Events_1_1ItemEvents_1_1OnInventoryOpenAfter.html#ac5d45747a5fe90f12efabc551d652fdc",
+"classNWNX_1_1API_1_1Util.html#a3cbb396c4585fc783d861276acd0e589",
+"classNWN_1_1API_1_1Events_1_1DialogEvents_1_1AppearsWhen.html#a1b6e07bb045d56a719873bf4a98b9473",
+"classNWN_1_1API_1_1Events_1_1TriggerEvents_1_1OnExit.html#a1d97bde9a2e0d6adcfe1ee227fa8530c",
+"classNWN_1_1API_1_1NwCreature.html#a72eb70a2610bca1a2429c739041d48ba",
+"classNWN_1_1API_1_1NwObject.html#ab13ea480574014497dc49db178d7e24f",
+"functions_func_i.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

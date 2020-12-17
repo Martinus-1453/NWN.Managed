@@ -35,6 +35,7 @@ var hierarchy =
     [ "NWNX.API.Dialog", "classNWNX_1_1API_1_1Dialog.html", null ],
     [ "NWN.API.Events.DialogEvents", "classNWN_1_1API_1_1Events_1_1DialogEvents.html", null ],
     [ "NWN.API.Constants.Direction", "classNWN_1_1API_1_1Constants_1_1Direction.html", null ],
+    [ "NWNX.API.Events.DMEvents", "classNWNX_1_1API_1_1Events_1_1DMEvents.html", null ],
     [ "NWN.API.Events.DoorEvents", "classNWN_1_1API_1_1Events_1_1DoorEvents.html", null ],
     [ "NWN.API.Effect", "classNWN_1_1API_1_1Effect.html", null ],
     [ "NWNX.API.Effect", "classNWNX_1_1API_1_1Effect.html", null ],
@@ -42,6 +43,7 @@ var hierarchy =
     [ "NWNX.API.Events.ELCEvents", "classNWNX_1_1API_1_1Events_1_1ELCEvents.html", null ],
     [ "NWNX.API.Encounter", "classNWNX_1_1API_1_1Encounter.html", null ],
     [ "NWN.API.Events.EncounterEvents", "classNWN_1_1API_1_1Events_1_1EncounterEvents.html", null ],
+    [ "NWN.EnvironmentConfig", "classNWN_1_1EnvironmentConfig.html", null ],
     [ "NWNX.API.Events.ExamineEvents", "classNWNX_1_1API_1_1Events_1_1ExamineEvents.html", null ],
     [ "NWNX.API.Events.FactionEvents", "classNWNX_1_1API_1_1Events_1_1FactionEvents.html", null ],
     [ "NWN.API.Constants.FadeSpeed", "classNWN_1_1API_1_1Constants_1_1FadeSpeed.html", null ],
@@ -69,6 +71,9 @@ var hierarchy =
     [ "IComparer", null, [
       [ "NWN.Services.ScheduledItem.SortedByExecutionTime", "classNWN_1_1Services_1_1ScheduledItem_1_1SortedByExecutionTime.html", null ]
     ] ],
+    [ "IDisposable", null, [
+      [ "NWN.Plugins.ITypeLoader", "interfaceNWN_1_1Plugins_1_1ITypeLoader.html", null ]
+    ] ],
     [ "IEquatable", null, [
       [ "NWN.API.NwFaction", "classNWN_1_1API_1_1NwFaction.html", null ],
       [ "NWN.API.Vector2Int", "structNWN_1_1API_1_1Vector2Int.html", null ]
@@ -78,6 +83,18 @@ var hierarchy =
     ] ],
     [ "IEquatable< LocalVariable< T >>", null, [
       [ "NWN.API.LocalVariable< T >", "classNWN_1_1API_1_1LocalVariable.html", null ]
+    ] ],
+    [ "NWN.API.Events.IEvent", "interfaceNWN_1_1API_1_1Events_1_1IEvent.html", [
+      [ "NWN.API.Events.IEvent< out out T >", "interfaceNWN_1_1API_1_1Events_1_1IEvent.html", null ]
+    ] ],
+    [ "NWN.API.Events.IEvent< T >", "interfaceNWN_1_1API_1_1Events_1_1IEvent.html", [
+      [ "NWN.API.Events.ScriptEvent< T >", "classNWN_1_1API_1_1Events_1_1ScriptEvent.html", null ],
+      [ "NWNX.API.Events.NWNXEvent< T >", "classNWNX_1_1API_1_1Events_1_1NWNXEvent.html", [
+        [ "NWNX.API.Events.NWNXEventSkippable< T >", "classNWNX_1_1API_1_1Events_1_1NWNXEventSkippable.html", null ]
+      ] ]
+    ] ],
+    [ "NWN.API.Events.IEvent< TEvent >", "interfaceNWN_1_1API_1_1Events_1_1IEvent.html", [
+      [ "NWN.API.Events.NativeEvent< TObject, TEvent >", "classNWN_1_1API_1_1Events_1_1NativeEvent.html", null ]
     ] ],
     [ "NWNX.API.Events.IEventAttribute", "interfaceNWNX_1_1API_1_1Events_1_1IEventAttribute.html", [
       [ "NWNX.API.Events.NWNXAttackEventAttribute", "classNWNX_1_1API_1_1Events_1_1NWNXAttackEventAttribute.html", null ],
@@ -111,7 +128,6 @@ var hierarchy =
     [ "NWNX.API.ItemProperty", "classNWNX_1_1API_1_1ItemProperty.html", null ],
     [ "NWN.API.ItemProperty", "classNWN_1_1API_1_1ItemProperty.html", null ],
     [ "NWN.Services.ITwoDimArray", "interfaceNWN_1_1Services_1_1ITwoDimArray.html", null ],
-    [ "NWN.Plugins.ITypeLoader", "interfaceNWN_1_1Plugins_1_1ITypeLoader.html", null ],
     [ "NWN.Services.IUpdateable", "interfaceNWN_1_1Services_1_1IUpdateable.html", [
       [ "NWN.Services.SchedulerService", "classNWN_1_1Services_1_1SchedulerService.html", null ]
     ] ],
@@ -123,9 +139,6 @@ var hierarchy =
     [ "NWN.Services.LoopTimeService", "classNWN_1_1Services_1_1LoopTimeService.html", null ],
     [ "NWN.API.Events.ModuleEvents", "classNWN_1_1API_1_1Events_1_1ModuleEvents.html", null ],
     [ "NWN.API.MonsterHitEffect", "structNWN_1_1API_1_1MonsterHitEffect.html", null ],
-    [ "NWN.API.Events.NativeEvent", "classNWN_1_1API_1_1Events_1_1NativeEvent.html", [
-      [ "NWN.API.Events.NativeEvent< TObject, TEvent >", "classNWN_1_1API_1_1Events_1_1NativeEvent.html", null ]
-    ] ],
     [ "NWN.API.Events.NativeEvent< NwArea, OnEnter >", "classNWN_1_1API_1_1Events_1_1NativeEvent.html", [
       [ "NWN.API.Events.AreaEvents.OnEnter", "classNWN_1_1API_1_1Events_1_1AreaEvents_1_1OnEnter.html", null ]
     ] ],
@@ -384,9 +397,6 @@ var hierarchy =
     [ "NWN.API.NativeScript", "classNWN_1_1API_1_1NativeScript.html", null ],
     [ "NWN.Services.NwDateTime", "structNWN_1_1Services_1_1NwDateTime.html", null ],
     [ "NWN.API.NwMath", "classNWN_1_1API_1_1NwMath.html", null ],
-    [ "NWNX.API.Events.NWNXEvent", "classNWNX_1_1API_1_1Events_1_1NWNXEvent.html", [
-      [ "NWNX.API.Events.NWNXEvent< T >", "classNWNX_1_1API_1_1Events_1_1NWNXEvent.html", null ]
-    ] ],
     [ "NWNX.API.Events.NWNXEvent< AttackEvent >", "classNWNX_1_1API_1_1Events_1_1NWNXEvent.html", [
       [ "NWNX.API.Events.AttackEvent", "classNWNX_1_1API_1_1Events_1_1AttackEvent.html", null ]
     ] ],
@@ -467,9 +477,6 @@ var hierarchy =
     ] ],
     [ "NWNX.API.Events.NWNXEvent< OnValidateUseItemAfter >", "classNWNX_1_1API_1_1Events_1_1NWNXEvent.html", [
       [ "NWNX.API.Events.ItemEvents.OnValidateUseItemAfter", "classNWNX_1_1API_1_1Events_1_1ItemEvents_1_1OnValidateUseItemAfter.html", null ]
-    ] ],
-    [ "NWNX.API.Events.NWNXEvent< T >", "classNWNX_1_1API_1_1Events_1_1NWNXEvent.html", [
-      [ "NWNX.API.Events.NWNXEventSkippable< T >", "classNWNX_1_1API_1_1Events_1_1NWNXEventSkippable.html", null ]
     ] ],
     [ "NWNX.API.Events.NWNXEventSkippable< OnAcceptInvitationAfter >", "classNWNX_1_1API_1_1Events_1_1NWNXEventSkippable.html", [
       [ "NWNX.API.Events.PartyEvents.OnAcceptInvitationAfter", "classNWNX_1_1API_1_1Events_1_1PartyEvents_1_1OnAcceptInvitationAfter.html", null ]
@@ -585,6 +592,18 @@ var hierarchy =
     [ "NWNX.API.Events.NWNXEventSkippable< OnLevelUpBefore >", "classNWNX_1_1API_1_1Events_1_1NWNXEventSkippable.html", [
       [ "NWNX.API.Events.LevelEvents.OnLevelUpBefore", "classNWNX_1_1API_1_1Events_1_1LevelEvents_1_1OnLevelUpBefore.html", null ]
     ] ],
+    [ "NWNX.API.Events.NWNXEventSkippable< OnPlayerDMLoginAfter >", "classNWNX_1_1API_1_1Events_1_1NWNXEventSkippable.html", [
+      [ "NWNX.API.Events.DMEvents.OnPlayerDMLoginAfter", "classNWNX_1_1API_1_1Events_1_1DMEvents_1_1OnPlayerDMLoginAfter.html", null ]
+    ] ],
+    [ "NWNX.API.Events.NWNXEventSkippable< OnPlayerDMLoginBefore >", "classNWNX_1_1API_1_1Events_1_1NWNXEventSkippable.html", [
+      [ "NWNX.API.Events.DMEvents.OnPlayerDMLoginBefore", "classNWNX_1_1API_1_1Events_1_1DMEvents_1_1OnPlayerDMLoginBefore.html", null ]
+    ] ],
+    [ "NWNX.API.Events.NWNXEventSkippable< OnPlayerDMLogoutAfter >", "classNWNX_1_1API_1_1Events_1_1NWNXEventSkippable.html", [
+      [ "NWNX.API.Events.DMEvents.OnPlayerDMLogoutAfter", "classNWNX_1_1API_1_1Events_1_1DMEvents_1_1OnPlayerDMLogoutAfter.html", null ]
+    ] ],
+    [ "NWNX.API.Events.NWNXEventSkippable< OnPlayerDMLogoutBefore >", "classNWNX_1_1API_1_1Events_1_1NWNXEventSkippable.html", [
+      [ "NWNX.API.Events.DMEvents.OnPlayerDMLogoutBefore", "classNWNX_1_1API_1_1Events_1_1DMEvents_1_1OnPlayerDMLogoutBefore.html", null ]
+    ] ],
     [ "NWNX.API.Events.NWNXEventSkippable< OnRejectInvitationAfter >", "classNWNX_1_1API_1_1Events_1_1NWNXEventSkippable.html", [
       [ "NWNX.API.Events.PartyEvents.OnRejectInvitationAfter", "classNWNX_1_1API_1_1Events_1_1PartyEvents_1_1OnRejectInvitationAfter.html", null ]
     ] ],
@@ -663,9 +682,6 @@ var hierarchy =
     [ "NWNX.API.Rename", "classNWNX_1_1API_1_1Rename.html", null ],
     [ "NWNX.API.Events.ResourceEvents", "classNWNX_1_1API_1_1Events_1_1ResourceEvents.html", null ],
     [ "NWNX.API.Reveal", "classNWNX_1_1API_1_1Reveal.html", null ],
-    [ "NWN.API.Events.ScriptEvent", "classNWN_1_1API_1_1Events_1_1ScriptEvent.html", [
-      [ "NWN.API.Events.ScriptEvent< T >", "classNWN_1_1API_1_1Events_1_1ScriptEvent.html", null ]
-    ] ],
     [ "NWN.API.Events.ScriptEvent< ActionTaken >", "classNWN_1_1API_1_1Events_1_1ScriptEvent.html", [
       [ "NWN.API.Events.DialogEvents.ActionTaken", "classNWN_1_1API_1_1Events_1_1DialogEvents_1_1ActionTaken.html", null ]
     ] ],
@@ -684,8 +700,8 @@ var hierarchy =
     [ "NWN.API.Events.SpellEvents", "classNWN_1_1API_1_1Events_1_1SpellEvents.html", null ],
     [ "NWN.API.StandardFactionExtensions", "classNWN_1_1API_1_1StandardFactionExtensions.html", null ],
     [ "NWNX.API.Events.StealthEvents", "classNWNX_1_1API_1_1Events_1_1StealthEvents.html", null ],
-    [ "NWNX.API.Events.StoreEvents", "classNWNX_1_1API_1_1Events_1_1StoreEvents.html", null ],
     [ "NWN.API.Events.StoreEvents", "classNWN_1_1API_1_1Events_1_1StoreEvents.html", null ],
+    [ "NWNX.API.Events.StoreEvents", "classNWNX_1_1API_1_1Events_1_1StoreEvents.html", null ],
     [ "NWN.API.StringExtensions", "classNWN_1_1API_1_1StringExtensions.html", null ],
     [ "NWN.API.Talent", "classNWN_1_1API_1_1Talent.html", null ],
     [ "NWN.API.TalentExtensions", "classNWN_1_1API_1_1TalentExtensions.html", null ],
